@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in Pakistan | HomeChef.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="jpg/jpeg" href="logo.svg">
+</head>
+
+<body>
+
+
+    
+    </div>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.svg" alt="HomeChef.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="right">
+            <ul>
+                <li class="item" id="sign"><a id="sign">Sign Up</a></li>
+                <li class="item" id="log"><a id="login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Home Chef</h1>
+        <p>We offer a diverse array of chef-crafted meals prepared with fresh, high-quality ingredients. Home Chef
+            Online Food Delivery aims to bring the joy of restaurant-quality meals to your table effortlessly. </p>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+
+            <a href="web project.html" class="box1">
+                <div>
+                    <!-- <img src="img/1.png" alt=""> -->
+                    <h2 class="h-secondary center">Fast Foods</h2>
+                    <br>
+                    <p class="center">Indulge in quick, flavorful satisfaction with our tantalizing array of fast food delights! From juicy burgers to crispy fries and mouthwatering pizzas, our menu offers a scrumptious selection that's perfect for those on-the-go cravings. Experience convenience without compromising on taste - delivered straight to your doorstep!</p>
+                </div>
+            </a>
+
+            <a href="web project.html" class="box2">
+                <div>
+                    <!-- <img src="img/2.png" alt=""> -->
+                    <h2 class="h-secondary center">Biryani's</h2>
+                    <br>
+                    <p class="center">Indulge in the tantalizing flavors of our authentic biryani! Our signature dish
+                        features aromatic basmati rice layered with tender, marinated meat, and a medley of handpicked
+                        spices, slow-cooked to perfection. Experience the essence of traditional cuisine
+                        delivered right to your doorstep.</p>
+                </div>
+            </a>
+
+            <a href="web project.html" class="box3">
+                <div>
+                    <!-- <img src="img/3.png" alt=""> -->
+                    <h2 class="h-secondary center">Home chef picks</h2>
+                    <br>
+                    <p class="center">Savor the homemade goodness with our delightful recipe! Crafted with love, our homemade dish embodies authentic flavors and freshness. Experience the joy of creating a culinary masterpiece in your own kitchen with our easy-to-follow, delicious recipe that promises to delight your taste buds and impress every palate.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <a href="web project.html"><img src="kfc.png" alt="Our Client"></a>  
+            </div>
+            <div class="client-item">
+                <a href="client.html"><img src="cheezious.jpg" alt="Our Client"></a>  
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    
+    <!--Login Form-->
+
+    <div class="popup">
+        <section id="popup-content">
+            <div class="parent">
+                <div id="close-btn">x</div>
+            </div>
+            <div class="center">
+
+                <h2>Wecome!</h2>
+                <p>Login continue</p>
+                <br>
+                <form action="client.html">
+                    Email
+                    <br><input type="email" class="email">
+                    <br>
+                    <br>
+                    Password
+                    <br><input type="password" class="password">
+                    <label for="category">Category</label>
+                    <select class="category" id="category" name="category">
+                        <option value="">Select a category</option>
+                        <option value= "restraunt">Restraunt</option>
+                        <option value= "customer">Customer</option>
+                        <option value= "admin">Admin</option>
+                    </select>
+                    <div class="button">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script>
+            let loginClick = document.getElementById("login");
+            loginClick.addEventListener("click", function () {
+                document.querySelector(".popup").style.display = "flex";
+            })
+            document.getElementById("close-btn").addEventListener("click", function () {
+                document.querySelector(".popup").style.display = "none";
+            })
+            const form1 = document.querySelector("form");
+
+            form1.addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent default form submission
+
+                const selectedCategory = document.getElementById("category").value;
+
+                let redirectUrl;
+                switch (selectedCategory) {
+                case "Restaurant":
+                    redirectUrl = "client.html";
+                    break;
+                case "Customer":
+                    redirectUrl = "Home.html";
+                    break;
+                case "Admin":
+                    redirectUrl = "approval.html";
+                    break;
+                default:
+                    alert("Please select a category");
+                }
+
+                if (redirectUrl) {
+                window.location.href = redirectUrl;
+                }
+            });
+        </script>
+    </div>
+    
+
+
+    <!--Signup From-->
+
+    <div class="popup-sign">
+        <section id="popup-content1">
+            <div class="parent">
+                <div id="close-btn-1">x</div>
+            </div>
+            <div class="center">
+
+                <h2>Wecome!</h2>
+                <p>Sign up to continue</p>
+                <br>
+                <form action="" id="myform">
+                    Name
+                    <br><input type="text" class="name" id="name">
+                    <br>
+                    <br>
+                    Email
+                    <br><input type="email" class="email" id="email">
+                    <br>
+                    <br>
+                    Password
+                    <br><input type="password" class="password" id="password">
+                    <br>
+                    <br>
+                    <label for="category">Category</label>
+                    <select class="category" id="category" name="category">
+                        <option value="">Select a category</option>
+                        <option value="restraunt">Restraunt</option>
+                        <option value="customer">Customer</option>
+                    </select>
+                    <div class="button">
+                        <button type="submit">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script>
+            let signClick = document.getElementById("sign");
+            signClick.addEventListener("click", function () {
+                document.querySelector(".popup-sign").style.display = "flex";
+            })
+            document.getElementById("close-btn").addEventListener("click", function () {
+                document.querySelector(".popup-sign").style.display = "none";
+            })
+            const form = document.getElementById('myForm');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const categorySelect = document.getElementById('category');
+            form.addEventListener('submit', function(event) {
+              event.preventDefault();
+        
+              const name = nameInput.value;
+              const email = emailInput.value;
+              const category = categorySelect.value;
+             
+        
+              const data = {
+                name,
+                email,
+                category,
+              };
+        
+              localStorage.setItem('formData', JSON.stringify(data));
+            });
+          </script>
+    </div>
+    
+
+
+
+
+
+</body>
+
+</html>

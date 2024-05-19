@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in Pakistan | HomeChef.com</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" media="screen and (max-width: 1176px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    
+<style>
+    #home::before{ 
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(19, 18, 18, 0.6)), url('../biryani.jpeg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+
+@media screen and (min-width:900px) and (max-width: 1176px) {
+    #home{
+        margin-bottom: 17%;
+    }
+    #services{
+        margin: 34px;
+        display: flex;
+        flex-direction: row;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+        height: 100%;
+    
+    }
+    
+}
+@media screen and (min-width: 433px) and (max-width: 900px) {
+    #home{
+        margin-bottom: 30%;
+    }
+    #services{
+        margin: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 78%;
+        height: 100%;
+    
+    }
+    
+}
+@media screen and (min-width: 270px) and (max-width: 433px) {
+    #home{
+        margin-bottom: 50%;
+    }
+    #services{
+        margin: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+}
+@media screen and (max-width: 270px){
+    #home{
+        margin-bottom: 50%;
+    }
+    #services{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
+    }  
+}
+
+
+
+</style>
+<script>
+    function order(){
+        window.location.href = "Order.html";
+    }
+</script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.svg" alt="HomeChef.com">
+        </div>
+        <ul>
+            <li class="item"><a href="Home.html">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Biryani's</h1>
+        <br>
+        <p>We offer a diverse array of chef-crafted meals prepared with fresh, high-quality ingredients. Indulge in the
+            tantalizing flavors of our authentic biryani! Our signature dish
+            features aromatic basmati rice layered with tender, marinated meat, and a medley of handpicked
+            spices, slow-cooked to perfection. </p>
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section id="services">
+        <!-- <h1 class="h-primary center">Our Services</h1> -->
+
+        <div class="box">
+            <div><img src="biryani images/b2.jpg" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Achari Biryani (Family Pack)</h4>
+                <br>
+                <p class="center">Achari biryani full Family pack 1kg with. Tender pieces of marinated meat (often
+                    chicken or lamb) are delicately layered between fragrant basmati rice infused with a medley of
+                    aromatic spices and achari masala. </p>
+                <h6>R.S: 2200</h6>
+                <button class="center btn" ondragover="">Add</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div><img src="biryani images/b1.jpg" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Chicken Biryani (Family Pack)</h4>
+                <br>
+                <p class="center">Chicken biryani full Family pack 1kg with no raita. This exquisite dish harmoniously
+                    combines succulent pieces of marinated chicken with fragrant basmati rice</p>
+                <h6>R.S: 2400</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div><img src="biryani images/b3.jpg" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Chana Biryani (Family Pack)</h4>
+                <br>
+                <p class="center">Chana biryani full Family pack 1kg. Delight in the vegetarian delight of our Chana
+                    Biryani. Each grain of rice encapsulates the richness of the spices,</p>
+                <h6>R.S: 2000</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="biryani images/b4.jpg" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Beef Biryani (Family Pack)</h4>
+                <br>
+                <p class="center">Beef biryani full Family pack 1kg. Indulge in the robust and savory experience of our
+                    Beef Biryani! This exquisite dish features succulent pieces of marinated beef, slow-cooked to
+                    perfection and layered between aromatic basmati rice</p>
+                <h6>R.S: 3000</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="biryani images/b5.jpg" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Kabuli palao (Family Pack)</h4>
+                <br>
+                <p class="center">Kabuli palao full Family pack 1kg with no raita. The rice is infused with a blend of
+                    spices that includes cardamom, cloves, cinnamon, and cumin, creating a fragrant symphony that
+                    complements the savory meat and the sweet notes of the garnishes.</p>
+                <h6>R.S: 2700</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="biryani images/b6.webp" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Egg Biryani (Family Pack)</h4>
+                <br>
+                <p class="center">Egg biryani full Family pack 1kg with raita. Each grain of rice absorbs the essence of
+                    the spices, while the boiled eggs add a unique and wholesome texture to every bite. Experience the
+                    perfect balance of flavors in this vegetarian-friendly biryani, crafted to elevate your dining
+                    experience.</p>
+                <h6>R.S: 2400</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.HomeChef.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

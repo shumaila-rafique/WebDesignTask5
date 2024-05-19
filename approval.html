@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="icon" type="jpg/jpeg" href="logo.svg">
+</head>
+<body>
+  <div id="data-display"></div>
+  <div>
+        <h2>OPTP</h2>
+        <p>Email: optp12@gmail.com</p>
+        <p>Category: Restraunt</p>
+  </div>
+  <button id="approve-btn">Approve</button>
+
+  <!-- <script>
+    const dataDiv = document.getElementById('data-display');
+    const approveBtn = document.getElementById('approve-btn');
+
+    // Check if form data exists in local storage
+    const storedData = localStorage.getItem('formData');
+    if (storedData) {
+      const parsedData = JSON.parse(storedData);
+
+      // Check if category is "food"
+      let displayText = `
+        <h2>${parsedData.name}</h2>
+        <p>Email: ${parsedData.email}</p>
+        <p>Category: ${parsedData.category}</p>
+      `;
+      dataDiv.innerHTML = displayText;
+
+      approveBtn.addEventListener('click', function() {
+        // Remove data from local storage
+        localStorage.removeItem('formData');
+
+        // Clear displayed data
+        dataDiv.innerHTML = '';
+
+        // Show notification (using alert for simplicity)
+        alert('Account has been approved!');
+      });
+    }
+  </script> -->
+</body>
+</html>

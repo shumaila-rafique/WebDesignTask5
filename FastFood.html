@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in Pakistan | HomeChef.com</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" media="screen and (max-width: 1176px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <script>
+        function order(){
+            window.location.href = "OrderF.html";
+        }
+    </script>
+    <style>
+        #home::before{ 
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(19, 18, 18, 0.6)), url('FastFood/FastFood.webp') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.box img{
+    width: 250px;
+}
+.box{
+    border-radius: 15px;
+    /* height: 300px; */
+}
+
+@media screen and (min-width:900px) and (max-width: 1176px) {
+    #home{
+        margin-bottom: 15%;
+    }
+    #services{
+        margin: 34px;
+        display: flex;
+        flex-direction: row;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+        height: 100%;
+    
+    }
+    
+}
+@media screen and (min-width: 433px) and (max-width: 900px) {
+    #home{
+        margin-bottom: 30%;
+    }
+    #services{
+        margin: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 78%;
+        height: 100%;
+    
+    }
+    .box img{
+    width: 295px;
+}
+    
+}
+@media screen and (min-width: 270px) and (max-width: 433px) {
+    #home{
+        margin-bottom: 50%;
+    }
+    #services{
+        margin: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .box img{
+    width: 180px;
+}
+    
+}
+@media screen and (max-width: 270px){
+    #home{
+        margin-bottom: 50%;
+    }
+    #services{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .box{ 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .box img{
+    width: 150px;
+}
+    
+}
+
+    </style>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.svg" alt="HomeChef.com">
+        </div>
+        <ul>
+            <li class="item"><a href="Home.html">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Fast Foods</h1>
+        <br>
+        <p>Welcome to our fast food haven, where convenience meets flavor! Dive into our delectable array of quick bites crafted to tantalize your taste buds and satisfy your cravings in a flash. From sizzling burgers stacked with juicy patties, melty cheese, and crisp veggies to crispy, golden fries seasoned to perfection, our menu is a symphony of fast-food delights.</p>
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section id="services">
+        <!-- <h1 class="h-primary center">Our Services</h1> -->
+
+        <div class="box">
+            <div><img src="FastFood/ff1.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Crispy Duo Box</h4>
+                <br>
+                <p class="center">Turn up the fun with 5 pieces Hot and Crispy Chicken + 1 large Fries + 2 Regular Drinks </p>
+                <h6>R.S: 1200</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div><img src="FastFood/ff2.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Zinger Stacker Combo</h4>
+                <br>
+                <p class="center">1 Zinger Stacker + 1 Regular Fries + 1 Regular Drink. </p>
+                <h6>R.S: 850</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div><img src="FastFood/ff3.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Twister Combo</h4>
+                <br>
+                <p class="center">Twister + 1 Regular fries + 1 Regular Drink</p>
+                <h6>R.S: 670</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="FastFood/ff4.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Family Fastival 3</h4>
+                <br>
+                <p class="center">An ultimate meal for the family. It includes 4 Zinger burgers + 4 pieces Hot and Crispy Chicken + 1 Regular Drink</p>
+                <h6>R.S: 2500</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="FastFood/ff6.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Crunch Combo</h4>
+                <br>
+                <p class="center">1 Crunch Burger + 1 Regular Fries + 1 Regular Drink. </p>
+                <h6>R.S: 2700</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="FastFood/ff5.png" alt=""></div>
+
+            <div class="content">
+                <h4 class="h-secondary center">Mighty Burger</h4>
+                <br>
+                <p class="center">Fun with Mighty Burger with cheez and Hot Crispy Chicken + 1 Regular Drink</p>
+                <h6>R.S: 2400</h6>
+                <button class="center btn" onclick="order()">Add</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.HomeChef.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

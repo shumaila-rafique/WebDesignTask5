@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    /* border: 2px solid red; */
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+.popup-sign{
+    background: rgba(0, 0, 0, 0.6);
+    /* border: 2px solid red; */
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+a{
+    cursor: pointer;
+}
+
+#popup-content{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+}
+#popup-content1{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+}
+.popup h2{
+    font-size: 30px;
+    color: rgb(255, 43, 133);
+
+}
+.popup-sign h2{
+    font-size: 30px;
+    color: rgb(255, 43, 133);
+
+}
+
+form{
+    width: 90%;
+}
+form input{
+    width: 97%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#close-btn{
+    color: rgb(255, 43, 133);
+    border: 2px solid;
+    float: right;
+    cursor: pointer;
+    padding: 5px 11px;
+    border-radius: 50%;
+    transition: 0.4s;
+
+}
+
+#close-btn:hover{
+    color: rgb(218, 215, 215);
+    transition: 0.4s;
+
+}
+#close-btn-1{
+    color: rgb(255, 43, 133);
+    border: 2px solid;
+    float: right;
+    cursor: pointer;
+    padding: 5px 11px;
+    border-radius: 50%;
+    transition: 0.4s;
+
+}
+
+#close-btn-1:hover{
+    color: rgb(218, 215, 215);
+    transition: 0.4s;
+
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(255, 43, 133);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+button:hover{
+    background-color: rgb(218, 215, 215);
+    transition: 0.4s;
+}
+.center{
+    text-align: left;
+}
